@@ -11,5 +11,7 @@ fs.readdir(path.join(__dirname, 'secret-folder'), {withFileTypes: true})
         }));
     });
   })
-  
+
   .catch(err => err !== undefined && console.log(err));
+
+  
